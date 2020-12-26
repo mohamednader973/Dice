@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actions_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="settings"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actions_help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="help"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actions_exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="exit"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_baseline_directions_walk_24"
+        android:title="profile"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
